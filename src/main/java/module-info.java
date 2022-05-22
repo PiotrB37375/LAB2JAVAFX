@@ -1,8 +1,8 @@
-module com.example.lab2javafx {
+module com.example.demo9 {
     requires javafx.controls;
     requires javafx.fxml;
 
 
-    opens com.example.lab2javafx to javafx.fxml;
-    exports com.example.lab2javafx;
+    opens com.example.LAB2 to javafx.fxml;
+    exports com.example.LAB2;
 }
